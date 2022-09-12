@@ -1,0 +1,34 @@
+﻿@using Nop.Core
+@using Nop.Services.Helpers
+@using Nop.Web.Framework.UI
+@inject IWorkContext workContext
+@inject IThemeContext themeContext
+@inject IUserAgentHelper userAgentHelper
+@{
+    var supportRtl = (await workContext.GetWorkingLanguageAsync()).Rtl;
+    var themeName = await themeContext.GetWorkingThemeNameAsync();
+
+    //add main CSS file
+    if (supportRtl)
+    {
+        NopHtml.AppendCssFileParts($"~/Themes/{themeName}/Content/css/responsive.rtl.css");
+        NopHtml.AppendCssFileParts($"~/Themes/{themeName}/Content/css/blackshop.rtl.css");
+        NopHtml.AppendCssFileParts($"~/Themes/{themeName}/Content/css/styles.rtl.css");
+    }
+    else
+    {
+
+        NopHtml.AppendCssFileParts($"~/Themes/{themeName}/Content/css/responsive.css");
+        NopHtml.AppendCssFileParts($"~/Themes/{themeName}/Content/css/blackshop.css");
+        NopHtml.AppendCssFileParts($"~/Themes/{themeName}/Content/css/styles.css");
+    }
+
+    //other 3rd party css file
+    NopHtml.AppendCssFileParts($"~/Themes/{themeName}/Content/css/slick.css");
+    NopHtml.AppendCssFileParts($"~/Themes/{themeName}/Content/css/slick-theme.css");
+    NopHtml.AppendCssFileParts($"~/Themes/{themeName}/Content/css/linearicons.css");
+    NopHtml.AppendCssFileParts($"~/Themes/{themeName}/Content/css/slinky.min.css");
+
+    //add jQuery UI css file
+    NopHtml.AppendCssFileParts("~/lib_npm/jquery-ui-dist/jquery-ui.min.css");
+}

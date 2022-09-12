@@ -1,0 +1,335 @@
+/*-------background-color:#222---*/
+
+.bs_home_feature_product_section,
+.bs_best_sellers .slick-prev,
+.bs_best_sellers .slick-next,
+.bs_news_home_main_left::before,
+.bs_home_category_item .title,
+.bs_category_home_main .slick-prev,
+.bs_category_home_main .slick-next,
+.bs_title_white h3:after,
+.bs_item_box_buttons .product-box-add-to-cart-button,
+.bs_item_box_buttons .add-to-wishlist-button,
+.bs_title_black h3:before,
+.bs_news_item .bs_news_date_day,
+.bs_blog_post .bs_blogs_date_day,
+.bs_primary_button:hover,
+.button-1:hover,
+.bs_secondary_button,
+.button-2,
+.bs_poll_main,
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after,
+.bs_poll:nth-of-type(even) .bs_primary_button:hover,
+.bs_poll:nth-of-type(even) .bs_poll_options li.answer,
+.bs_newsletter-subscribe-button,
+.footer-block.follow-us .networks li,
+.bs_title_black h4:before,
+.bs_sub_category_item .title,
+.product-selectors .product-viewmode a.selected,
+.bs_title_white.title_bg_black h4::after,
+.bs_reg_login_section::before,
+.address-list .section.address-item .bs_edit_remove_buttons,
+.bs_product_name_breadcrumb,
+.jCarouselMainWrapper .slick-prev,
+.jCarouselMainWrapper .slick-next,
+.product-review-item .review-info,
+.order-item .bs_order_number,
+.html-account-page .block .list a:hover,
+.html-account-page .block .list .active > a,
+.bs_news_comment:nth-child(even),
+.bs_contactus_icon,
+.bs_email_icon,
+.bs_return_icon,
+.bs_search_icon,
+.bs_request_item .title,
+.slinky-theme-default,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover,
+.bs_service_box .l-icon,
+.footer,
+.bs_item_box_buttons .add-to-compare-list-button,
+.header-links a.ico-wishlist .wishlist-qty,
+.header-links a.ico-cart .cart-qty,
+.cart td,
+.data-table td,
+.forum-table td,
+.ui-dialog-content .back-in-stock-subscription-page .button-1,
+.newsletter-subscribe-button,
+.block .title,
+.block .view-all a:hover,
+.product-selectors > div,
+.pager li span,
+.pager li a:hover,
+.overview .bs_add_to_cart_button,
+.variant-overview .bs_add_to_cart_button,
+.ui-datepicker-header,
+.tooltip-container .tooltip-header,
+.write-review,
+.write-review .button-1,
+.wishlist-content .update-wishlist-button,
+.wishlist-content .wishlist-add-to-cart-button,
+.enter-password-form input[type="submit"],
+#check-availability-button:hover,
+.login-page .new-wrapper .text,
+.login-page .returning-wrapper .form-fields,
+.login-page .returning-wrapper .buttons,
+.order-progress,
+.cart-footer .totals,
+.cart-footer .checkout-button,
+.apply-shipping-button,
+.opc .allow .step-title,
+.opc .allow .step-title .number,
+.order-details-page .repost .button-2,
+.user-agreement-page .button-1,
+.order-details-page .total-info,
+.forums-table-section .view-all a,
+.forum-edit-page .buttons .button-1,
+.move-topic-page .buttons .button-1,
+.private-messages .buttons .button-1,
+.ui-tabs-nav li.ui-state-active a,
+.menu-toggle,
+.mini-shopping-cart input[type="button"],
+.login-page .new-wrapper,
+.login-page .returning-wrapper,
+.skltbs-theme-light .skltbs-tab.skltbs-active:focus,
+.skltbs-theme-light .skltbs-tab.skltbs-active:hover,
+.skltbs-theme-light .skltbs-tab.skltbs-active,
+.admin-header-links,
+.forums-table-section .view-all a:hover,
+.topic-post .pm-button,
+.profile-info-box .pm-button {
+  background-color: #000;
+}
+/*--------responsive background-color:#222-------*/
+
+@media only screen and (max-width: 1024px) {
+  #mySidenav,
+  .login-page .returning-wrapper {
+    background-color: #000;
+  }
+  .footer-block .title,
+  .bs_footer_link .footer-block .list li a:hover,
+  .bs_footer_link .footer-block .list,
+  .bs_footer_link .footer-block .list li a,
+  .bs_read_icon {
+    color: #000;
+  }
+}
+/*--------box-shadow-color:#222-------*/
+
+.overview .bs_add_to_cart_button:hover,
+.variant-overview .bs_add_to_cart_button:hover {
+  box-shadow: 4px 4px #000;
+}
+/*--------!important background-color:#222-------*/
+
+.theme-custom .nivo-controlNav a.active,
+.apply-shipping-button:hover,
+.bs_primary_button:hover,
+.swal2-confirm.bs_secondary_button.swal2-styled,
+.swal2-cancel.bs_secondary_button.swal2-styled,
+.button-1:hover,
+.forums-main-page .forums-header .basic .button-2.search-box-button:hover {
+  background-color: #000 !important;
+}
+/*-------!important color:#222---*/
+
+.cart .product .edit-item a:hover,
+.bs_border_button:hover,
+.ui-datepicker-calendar .ui-state-active {
+  color: #000 !important;
+}
+/*------border-color:#222---*/
+
+.wrm-border-btn .hottest-see-more:hover,
+.bs_news_home_main_right,
+.bs_poll:nth-of-type(even) .bs_primary_button,
+.bs_service_box:hover,
+.bs_primary_button,
+.bs_secondary_button,
+[type="checkbox"] + label:before,
+.section.pickup-in-store label:before,
+.product-grid .item-box,
+.bs_category_product_list .item-box,
+/*.bs_selected_checkout_attribute,*/ .bs_coupon_box .coupon-box,
+.bs_gift_card_box .giftcard-box,
+.checkout-data .bs_billing_info_wrap,
+.checkout-data .bs_shipping_info_wrap,
+.order-details-page .bs_billing_info_wrap,
+.order-details-page .bs_shipping_info_wrap,
+.use-reward-points label:before,
+.bs_news_comment:nth-child(odd) .user-info,
+.shipment-details-page .shipment-details-area .order-info-wrap,
+.shipment-details-page .shipment-details-area .shipping-info-wrap,
+.shipment-details-page .shipment-details-area .order-info-wrap .bs_order_info_wrap,
+.shipment-details-page .shipment-details-area .shipping-info-wrap .bs_shipping_info_wrap,
+.bs_authentication_providers .method-list li,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover,
+.header-links a.ico-wishlist .wishlist-qty,
+.header-links a.ico-cart .cart-qty,
+.block .view-all a,
+.pager li a,
+.pager li span,
+.attribute-squares .attribute-square,
+.order-review-data > div,
+.order-details-area > div,
+.shipment-details-area > div {
+  border-color: #000;
+}
+/*--------!important border-color:#222-------*/
+
+.swal2-confirm.bs_secondary_button.swal2-styled,
+.swal2-cancel.bs_secondary_button.swal2-styled,
+.bs_input_area input[type="text"]:focus,
+.bs_input_area input[type="email"]:focus,
+.bs_input_area input[type="tel"]:focus,
+.bs_input_area input[type="password"]:focus,
+.bs_input_area textarea:focus,
+.bs_input_area select:focus,
+.bs_primary_button,
+.bs_secondary_button,
+.bs_poll:nth-of-type(even) .bs_primary_button,
+.bs_poll:nth-of-type(even) .bs_primary_button:hover {
+  border-color: #000 !important;
+}
+/*--------border-top-color:#222-------*/
+
+.bs_required_info .required,
+.bs_input_field .required,
+.address-list .section.address-item,
+.address-list .section.address-item::before,
+.bs_shipping_popup .required,
+.bs_required_popup_info .required {
+  border-top-color: #000;
+}
+/*--------border-left-color:#222-------*/
+
+.address-list .section.address-item::before,
+.product-review-item .reply.bs_review_replay {
+  border-left-color: #000;
+}
+/*--------border-bottom-color:#222-------*/
+
+.bs_search_bar input[type="text"] {
+  border-bottom-color: #000;
+}
+/*-------background-color:#d6d6d6---*/
+
+section.bs_service_section,
+.bs_home_news_section,
+.bs_title_black h3:after,
+.bs_poll_main::before,
+.bs_poll_main::after,
+.bs_poll:nth-of-type(even),
+.bs_footer_subscribe_box,
+.footer-block.follow-us,
+.bs_title_black h4:after,
+.category-grid.sub-category-grid,
+.login-page,
+.bs_title_white h4:after,
+.registration-page,
+.address-list .section.address-item,
+.bs_procuct_each_attribute .bs_product_attrubute_value .select-wrapper select,
+.bs_checkout_each_attribute .bs_checkout_attrubute_value .select-wrapper select,
+.bs_product_attrubute_value .bs_text_input input,
+.bs_checkout_attrubute_value .bs_text_input input,
+.bs_product_attrubute_value .bs_text_input textarea,
+.bs_checkout_attrubute_value .bs_text_input textarea,
+.bs_product_attrubute_value .bs_date_picker .date-picker-wrapper select,
+.bs_checkout_attrubute_value .bs_date_picker .date-picker-wrapper select,
+.bs_rental_attributes.rental-attributes .attribute-item .attribute-data input,
+.related-products-grid.bs_related_product_section,
+.product-reviews-page,
+.wishlist-page,
+.shopping-cart-page,
+div#checkout-step-confirm-order,
+.order-details-page,
+.bs_news_comment:nth-child(odd),
+.page.return-request-page,
+.bs_search_box_main,
+.shipment-details-page,
+.login-page .topic-block .bs_title_black.title_bg_white h3::after,
+.bs_authentication_enable,
+.bs_authentication_providers,
+.forum-edit-page .form-fields,
+.forum-search-page .form-fields,
+.private-message-send-page .form-fields,
+.header-upper,
+.pager li a,
+.pager li span,
+.overview .bs_add_to_cart_button:hover,
+.variant-overview .bs_add_to_cart_button:hover,
+.product-review-item,
+.order-review-data > div,
+.order-details-area > div,
+.shipment-details-area > div,
+.opc .step-title,
+.sitemap-page .entity-body,
+.side-2,
+.header-menu .sublist li:hover > a,
+.forums-header,
+.topic-post .post-head,
+.topic-post .username,
+.topic-post .post-time,
+.overview,
+.skltbs-theme-light .skltbs-tab,
+.gdpr-tools-page form .form-fields,
+.bs_category_product_list .item-box .bs_item_box_buttons {
+  background-color: #d7d7d7;
+}
+/*-------background-color:#d6d6d6!important---*/
+
+.bs_add_to_wishlist_button,
+.bs_email_a_friend_button,
+.bs_add_to_compare_list_button {
+  background-color: #d7d7d7 !important;
+}
+/*------border-color:#d6d6d6---*/
+
+.bs_input_area input[type="text"],
+.bs_input_area input[type="email"],
+.bs_input_area input[type="tel"],
+.bs_input_area input[type="password"],
+.bs_input_area textarea,
+.bs_input_area select,
+.html-account-page .block .list a {
+  border-color: #d7d7d7;
+}
+/*------border-top-color:#d6d6d6---*/
+
+.product-selectors {
+  border-top-color: #d7d7d7;
+}
+/*------border-left-color:#d6d6d6---*/
+
+.topic-post .post-actions a.post-link-button {
+  border-left-color: #d7d7d7;
+}
+/*------border-bottom-color:#d6d6d6---*/
+
+.product-selectors,
+.cart-footer .total-info {
+  border-bottom-color: #d7d7d7;
+}
+/*------border-bottom-color:#d6d6d6---*/
+
+.bs_item_box_buttons {
+  background-color: rgba(215, 215, 215, 0.6);
+}
+/*--------responsive background-color:##d6d6d6-------*/
+
+@media only screen and (max-width: 1024px) {
+  .footer-block .title {
+    background-color: #d7d7d7;
+  }
+}
